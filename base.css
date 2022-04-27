@@ -1,0 +1,52 @@
+:root{
+    --primary-color:#ee4d2d;
+    --white-color:#fff;
+    --black-color:#000;
+    --text-color:#333;
+    --border-color:#dbdbdb;
+    --star-gold-color:#ffce3e;
+
+    --navbar-height:34px;
+    --header-hight:120px;
+    --header-with-search-height:calc(var(--header-hight) - var(--navbar-height));
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient( to right bottom, rgb(238, 202, 232), #d0dd5c);
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px;
+}
+input[type=button] {
+    font-family: 'Poppins', sans-serif;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    color: white;
+    background-color: #333;
+    cursor: pointer;
+    font-weight: 300;
+}
+input[type=button].gray-color{
+    background-color: #a5a5a5;
+}
+input[type=button].opreator{
+    background-color: #ff9f0b;
+}
+input[type=button].number0{
+    width: 136px;
+    border-radius: 50px;
+    text-align: left;
+    padding-left: 25px;
+}
